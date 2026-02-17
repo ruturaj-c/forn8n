@@ -1,8 +1,23 @@
 {
-"name": "n8n-on-render",
-"private": true,
-"version": "1.0.0",
-"engines": { "node": ">=18" },
-"scripts": { "start": "n8n start" },
-"dependencies": { "n8n": "^1.0.0" }
+  "name": "n8n-on-render",
+  "version": "1.0.0",
+  "description": "n8n workflow automation on Render",
+  "private": true,
+  "author": "Your_Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruturaj-c/forn8n.git"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
+  },
+  "scripts": {
+    "start": "n8n start",
+    "dev": "n8n start --dev"
+  },
+  "dependencies": {
+    "n8n": "^1.0.0"
+  }
 }
